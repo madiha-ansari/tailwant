@@ -1,0 +1,280 @@
+.icon {
+  width: 30px;
+  height: 30px;
+  opacity: 60%;
+  &:hover {
+    opacity: 100%;
+    transition: opacity 0.3s ease;
+  }
+}
+
+.header {
+  background-color: #1d1d1d;
+}
+.logotext {
+  font-weight: 100;
+  opacity: 80%;
+}
+.Logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 10px 10px 10px 15px;
+}
+.navone {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.listone {
+  display: flex;
+  opacity: 70%;
+  cursor: pointer;
+  align-items: center;
+  gap: 4rem;
+  list-style-type: none;
+  padding: 10px 10px 10px 10px;
+  &:hover {
+    opacity: 100%;
+    transition: opacity 0.3s ease;
+  }
+}
+.navbutton {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  padding: 15px;
+}
+.navbutton1 {
+  padding: 0.5rem;
+  background-color: #1d1d1d;
+  border: none;
+  cursor: pointer;
+  opacity: 80%;
+  &:hover {
+    opacity: 100%;
+    transition: opacity 0.3s ease;
+  }
+}
+.navbutton2 {
+  padding: 7px 10px 7px 10px;
+  border-radius: 7px;
+  color: #1d1d1d;
+  background-color: #eaff96;
+  border: none;
+}
+@media (max-width: 768px) {
+  .listone {
+    visibility: hidden;
+    display: none;
+  }
+  .navone {
+    justify-content: space-between;
+  }
+}
+
+.listtwo {
+  background-color: #161616;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  opacity: 70%;
+  align-items: center;
+  gap: 4rem;
+  list-style-type: none;
+  padding: 15px;
+  &:hover {
+    opacity: 100%;
+    transition: opacity 0.3s ease;
+  }
+}
+@media (min-width: 768px) {
+  .listtwo {
+    visibility: hidden;
+    display: none;
+  }
+}
+.footer {
+  background-color: #161616;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.footernav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  gap: 2rem;
+  padding: 40px 0 30px 0px;
+}
+.linkContainer {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.footerlogo {
+  display: flex;
+  padding: 30px 0px 10px 40px;
+  width: 375px;
+  height: 204px;
+}
+.icon2 {
+  width: 25px;
+  height: 25px;
+  opacity: 50%;
+  &:hover {
+    opacity: 100%;
+    transition: opacity 0.3s ease;
+  }
+}
+
+.linkContainer2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.linklabel {
+  color: #a3a3a3;
+  font-size: 12px;
+}
+.linklist {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  list-style-type: none;
+  color: #858585;
+}
+.footerlink {
+  font-size: 12px;
+  &:hover {
+    text-decoration: underline;
+    color: #9b9898;
+  }
+}
+@media (max-width: 1068px) {
+  .footerlogo {
+    height: 30px;
+    width: 100%;
+    padding-top: 0px;
+    padding-left: 70px;
+  }
+  .linkContainer {
+    height: 217px;
+    width: 165px;
+  }
+}
+@media (max-width: 769px) {
+  .footerlogo {
+    height: 30px;
+    width: 100%;
+    padding-top: 0px;
+    padding-left: 40px;
+  }
+  .linkContainer {
+    height: 217px;
+    width: 240px;
+  }
+}
+@media (max-width: 630px) {
+  .footerlogo {
+    height: 30px;
+    width: 100%;
+    padding-top: 0px;
+    padding-left: 40px;
+  }
+  .linkContainer {
+    height: 217px;
+    width: 200px;
+  }
+}
+@media (max-width: 490px) {
+  .footerlogo {
+    height: 30px;
+    width: 100%;
+    padding-top: 0px;
+    padding-left: 30px;
+  }
+  .linkContainer {
+    height: 217px;
+    width: 170px;
+  }
+}
+@media (max-width: 429px) {
+  .footerlogo {
+    height: 30px;
+    width: 100%;
+    padding-top: 0px;
+    padding-left: 30px;
+  }
+  .linkContainer {
+    height: 217px;
+    width: 165px;
+  }
+}
+@media (max-width: 415px) {
+  .footerlogo {
+    height: 30px;
+    width: 100%;
+    padding-top: 0px;
+    padding-left: 30px;
+  }
+  .linkContainer {
+    height: 217px;
+    width: 140px;
+  }
+}
+@media (max-width: 370px) {
+  .footerlogo {
+    height: 30px;
+    width: 100%;
+    padding-top: 0px;
+    padding-left: 30px;
+  }
+  .linkContainer {
+    height: 247px;
+    width: 125px;
+  }
+}
+@media (max-width: 337px) {
+  .footerlogo {
+    height: 30px;
+    width: 100%;
+    padding-top: 0px;
+    padding-left: 30px;
+  }
+  .linkContainer {
+    height: 247px;
+    width: 95px;
+  }
+}
+.footer2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
+.copyright {
+  color: #858585;
+  font-size: 12px;
+
+  padding-top: 10px;
+}
+.linklist2 {
+  display: flex;
+  gap: 0.7rem;
+  font-size: 14px;
+  list-style-type: none;
+  color: #858585;
+}
+.gapdiv {
+  width: 100%;
+  height: 1px;
+  background-color: #333333;
+  opacity: 50%;
+}
